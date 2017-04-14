@@ -1,9 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "jenkins-remote-api/version"
+require "jenkins-remote-api_1/version"
 
 Gem::Specification.new do |s|
-  s.name        = "jenkins-remote-api"
+  s.name        = "jenkins-remote-api_1"
   s.version     = Hudson::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Dru Ibarra", "Armen"]
@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   
   #s.add_development_dependency "rspec"
 
-  s.rubyforge_project = "jenkins-remote-api"
+  s.rubyforge_project = "jenkins-remote-api_1"
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
