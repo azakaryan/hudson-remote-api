@@ -174,6 +174,8 @@ module Hudson
       else
         response = Hudson.client.build_job!(self.name)
       end
+      
+      yield(response) if block_given?
       response.is_a?(Net::HTTPSuccess) or response.is_a?(Net::HTTPRedirection)
     end
 

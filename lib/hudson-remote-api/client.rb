@@ -14,7 +14,7 @@ module Hudson
     def initialize(config_settings={})
       @configuration = ::Hudson::Settings.new(config_settings).configuration
       @xml_api = ::Hudson::XmlApi.new(self.configuration)
-      fetch_crumb
+      #fetch_crumb
     end
 
     def auto_configure
