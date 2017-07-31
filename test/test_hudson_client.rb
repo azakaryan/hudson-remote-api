@@ -7,7 +7,7 @@ class TestHudsonClient < Test::Unit::TestCase
   end
 
   def config
-    File.open(File.dirname(__FILE__) + '/../lib/hudson-remote-api/new_job_config.xml').read
+    File.open(File.dirname(__FILE__) + '/../lib/jenkins-remote-api_1/new_job_config.xml').read
   end
 
   def test_initialization

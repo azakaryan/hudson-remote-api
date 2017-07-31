@@ -1,15 +1,15 @@
-[![Build Status](https://secure.travis-ci.org/Druwerd/hudson-remote-api.png)](http://travis-ci.org/Druwerd/hudson-remote-api)
-# hudson-remote-api
-hudson-remote-api is ruby library to talk to Hudson's xml remote access api
+[![Build Status](https://secure.travis-ci.org/Druwerd/jenkins-remote-api_1.png)](http://travis-ci.org/Druwerd/jenkins-remote-api_1)
+# jenkins-remote-api_1
+jenkins-remote-api_1 is ruby library to talk to Hudson's xml remote access api
 
 ## Installation:
 
-    gem install hudson-remote-api
+    gem install jenkins-remote-api_1
 
 ## Configuration:
 
 ```ruby
-require 'hudson-remote-api'
+require 'jenkins-remote-api_1'
 ```
 
 ```ruby
@@ -143,7 +143,7 @@ j.description = "My new job description"
 #### Set repository
 ```ruby
 # Git
-j.repository_url = { :url => 'https://github.com/beeplove/hudson-remote-api-mkhan.git', :branch => 'origin/master' }
+j.repository_url = { :url => 'https://github.com/beeplove/jenkins-remote-api_1-mkhan.git', :branch => 'origin/master' }
 # or, only to change branch
 j.repository_url = { :branch => 'origin/master' }
 
